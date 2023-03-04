@@ -60,7 +60,7 @@
             </div>
         </div>
     </div>
-    <script src="Build/SheetalARCard_3dModel.loader.js"></script>
+    <script src="Build/SheetalARCard_3dModelNew.loader.js"></script>
     <script>
             var container = document.querySelector("#unity-container");
             var canvas = document.querySelector("#unity-canvas");
@@ -76,9 +76,9 @@
             function StartCamera() {
                 document.getElementById("startWebcamDiv").style.display = "none";
                 createUnityInstance(document.querySelector("#unity-canvas"), {
-                    dataUrl: "Build/SheetalARCard_3dModel.data",
-                    frameworkUrl: "Build/SheetalARCard_3dModel.framework.js",
-                    codeUrl: "Build/SheetalARCard_3dModel.wasm",
+                    dataUrl: "Build/SheetalARCard_3dModelNew.data",
+                    frameworkUrl: "Build/SheetalARCard_3dModelNew.framework.js",
+                    codeUrl: "Build/SheetalARCard_3dModelNew.wasm",
                     streamingAssetsUrl: "StreamingAssets",
                     companyName: "DefaultCompany",
                     productName: "WebARTestPlug",
